@@ -1,0 +1,280 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 2560,
+      "max": [
+        18.777175903320312,
+        1,
+        3.1814150810241699
+      ],
+      "min": [
+        -17.96379280090332,
+        -1.0000003576278687,
+        -3.5983161926269531
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 30720,
+      "componentType": 5126,
+      "count": 2560,
+      "max": [
+        0.99043840169906616,
+        0.9999997615814209,
+        0.99513876438140869
+      ],
+      "min": [
+        -0.99043828248977661,
+        -0.9999997615814209,
+        -0.99513876438140869
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 2560,
+      "max": [
+        0.99999696016311646,
+        0.99621784687042236,
+        0.93053382635116577,
+        1
+      ],
+      "min": [
+        -0.99846309423446655,
+        -0.99965804815292358,
+        -0.89649820327758789,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 2560,
+      "max": [
+        0.90119808912277222,
+        0.86338472366333008
+      ],
+      "min": [
+        0.12603551149368286,
+        0.11809109151363373
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 6300,
+      "max": [
+        2559
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "annalisa.dipierro (https://sketchfab.com/annalisa.dipierro)",
+      "license": "CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+      "source": "https://sketchfab.com/3d-models/blu-butterfly-fbx-scene-master-collection-4a961d3cb44d4cf3a008480923fa7d89",
+      "title": "Blu Butterfly Fbx Scene Master Collection"
+    },
+    "generator": "Sketchfab-6.22.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 25200,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 20480,
+      "byteOffset": 25200,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 61440,
+      "byteOffset": 45680,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 40960,
+      "byteOffset": 107120,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 148080,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "ala_sinistra_baseColor.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "ala_sinistra",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.82111456180001685
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "corpo_ala sinistra_0",
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3
+      ],
+      "matrix": [
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        -1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1
+      ],
+      "name": "52e990ed877f4bcca904e495e4ddab3b.fbx"
+    },
+    {
+      "children": [
+        4
+      ],
+      "name": "RootNode"
+    },
+    {
+      "children": [
+        5
+      ],
+      "matrix": [
+        10.755627249078545,
+        0.93264241780921298,
+        1.2176258562420976,
+        0,
+        -1.9324505972014276,
+        19.331705172332253,
+        2.2627230149021758,
+        0,
+        -4.2584662721644468,
+        -5.3040875701870362,
+        41.678889021402746,
+        0,
+        130.12255859375,
+        -13.629304885864258,
+        -2599.0458984375,
+        1
+      ],
+      "name": "corpo"
+    },
+    {
+      "mesh": 0,
+      "name": "corpo_ala sinistra_0"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ]
+}
+
